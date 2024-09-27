@@ -23,7 +23,7 @@
         "icon": "Histogram",
         "title": "数据大屏",
         "isLink": "",
-        "isHide": false,
+        "isHide": true,
         "isFull": true,
         "isAffix": false,
         "isKeepAlive": true
@@ -35,7 +35,7 @@
       "redirect": "/proTable/useProTable",
       "meta": {
         "icon": "MessageBox",
-        "title": "超级表格",
+        "title": "客户管理",
         "isLink": "",
         "isHide": false,
         "isFull": false,
@@ -49,7 +49,7 @@
           "component": "/proTable/useProTable/index",
           "meta": {
             "icon": "Menu",
-            "title": "使用 ProTable",
+            "title": "客户池",
             "isLink": "",
             "isHide": false,
             "isFull": false,
@@ -82,7 +82,7 @@
             "icon": "Menu",
             "title": "使用 TreeFilter",
             "isLink": "",
-            "isHide": false,
+            "isHide": true,
             "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
@@ -111,7 +111,7 @@
             "icon": "Menu",
             "title": "使用 SelectFilter",
             "isLink": "",
-            "isHide": false,
+            "isHide": true,
             "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
@@ -125,7 +125,7 @@
             "icon": "Menu",
             "title": "树形 ProTable",
             "isLink": "",
-            "isHide": false,
+            "isHide": true,
             "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
@@ -139,7 +139,7 @@
             "icon": "Menu",
             "title": "复杂 ProTable",
             "isLink": "",
-            "isHide": false,
+            "isHide": true,
             "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
@@ -153,13 +153,27 @@
             "icon": "Menu",
             "title": "ProTable 文档",
             "isLink": "https://juejin.cn/post/7166068828202336263/#heading-14",
-            "isHide": false,
+            "isHide": true,
             "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
         }
       ]
+    },
+    {
+      "path": "/system/accountManage",
+      "name": "accountManage",
+      "component": "/system/accountManage/index",
+      "meta": {
+        "icon": "Menu",
+        "title": "物流成本",
+        "isLink": "",
+        "isHide": false,
+        "isFull": false,
+        "isAffix": false,
+        "isKeepAlive": true
+      }
     },
     {
       "path": "/auth",
@@ -213,7 +227,7 @@
         "icon": "Briefcase",
         "title": "常用组件",
         "isLink": "",
-        "isHide": false,
+        "isHide": true,
         "isFull": false,
         "isAffix": false,
         "isKeepAlive": true
@@ -416,7 +430,7 @@
         "icon": "Tickets",
         "title": "表单 Form",
         "isLink": "",
-        "isHide": false,
+        "isHide": true,
         "isFull": false,
         "isAffix": false,
         "isKeepAlive": true
@@ -488,7 +502,7 @@
         "icon": "TrendCharts",
         "title": "ECharts",
         "isLink": "",
-        "isHide": false,
+        "isHide": true,
         "isFull": false,
         "isAffix": false,
         "isKeepAlive": true
@@ -588,7 +602,7 @@
         "icon": "Stamp",
         "title": "自定义指令",
         "isLink": "",
-        "isHide": false,
+        "isHide": true,
         "isFull": false,
         "isAffix": false,
         "isKeepAlive": true
@@ -688,7 +702,7 @@
         "icon": "List",
         "title": "菜单嵌套",
         "isLink": "",
-        "isHide": false,
+        "isHide": true,
         "isFull": false,
         "isAffix": false,
         "isKeepAlive": true
@@ -934,7 +948,7 @@
         "icon": "Paperclip",
         "title": "外部链接",
         "isLink": "",
-        "isHide": false,
+        "isHide": true,
         "isFull": false,
         "isAffix": false,
         "isKeepAlive": true
