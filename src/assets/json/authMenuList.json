@@ -162,9 +162,9 @@
       ]
     },
     {
-      "path": "/system/accountManage",
-      "name": "accountManage",
-      "component": "/system/accountManage/index",
+      "path": "/logistics",
+      "name": "logistics",
+      "component": "/logistics/index",
       "meta": {
         "icon": "Menu",
         "title": "物流成本",
